@@ -16,11 +16,13 @@
 
 .card {
     max-width: 85%;
+    max-height: 90%;
     background-color: #fff;
     padding: 40px;
     border-radius: 15px;
     text-align: center;
     color: #333;
+    box-shadow: 0 10px 10px rgb(0, 0, 0, 0.1);
 }
 
 .card h1 {
@@ -31,6 +33,7 @@
 .card p {
     color: #0e98bb;
     margin-top: 5px;
+    font-size: 0.85rem;
 }
 
 .card img {

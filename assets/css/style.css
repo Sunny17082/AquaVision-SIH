@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: #C5DFF8;
+    background-color: #d1d1d1;
 }
 
 .container {
@@ -16,24 +16,29 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    background-color: #002D62;
+    background-color: #fff;
     border-radius: 10px;
     text-align: center;
-    border: 1px solid #333;
+    box-shadow: 0 10px 10px rgb(0, 0, 0, 0.1);
 }
 
 .container h1 {
     font-size: 2.5rem;
     font-weight: 600;
-    margin-bottom: 15px;
-    color: #F0F8FF;
+    margin-bottom: 5px;
+    color: #7caed9;
     font-weight: 600;
     font-style: italic;
     text-shadow: 1px 1px #000000;
 }
 
-.container h1 span{
-    color: #94b3d6;
+.container h1 span {
+    color: #002D62;
+}
+
+.container p {
+    color: #0e98bb;
+    margin-bottom: 15px;
 }
 
 .container.option {
