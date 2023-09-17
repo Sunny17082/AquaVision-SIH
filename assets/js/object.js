@@ -1,7 +1,7 @@
 const object = {
     id: 1,
     name: "Banana",
-    image: "https://www.forbesindia.com/media/images/2022/Sep/img_193775_bananas.jpg",
+    image: "assets/img/banana.png",
     water: "91 liters per serving",
     blue: "84%",
     green: "12%",
