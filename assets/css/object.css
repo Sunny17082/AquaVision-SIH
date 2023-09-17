@@ -17,7 +17,7 @@
 .container {
     width: 55%;
     height: 90%;
-    background-color: #fff;
+    background-color: #002D62;
     border-radius: 35px;
     padding: 20px;
     display: flex;
@@ -30,8 +30,8 @@
     flex-basis: 54%;
     width: 100%;
     height: 100%;
-    background-color: #fff;
-    border-radius: 10px;
+    background-color: #002D62;
+    border-radius: 15px;
     display: flex;
     justify-content: space-between;
     margin-top: 10px;
@@ -41,34 +41,37 @@
     flex-basis: 42%;
     width: 100%;
     height: 100%;
-    border-radius: 10px;
+    border-radius: 15px;
     padding: 20px;
     border: 1px solid #333;
+    background-color: #d1d1d1;
 }
 
 .object {
     flex-basis: 49%;
     width: 100%;
     height: 100%;
-    border-radius: 10px;
+    border-radius: 15px;
     padding: 20px;
     border: 1px solid #333;
+    background-color: #d1d1d1;
 }
 
 .content {
     flex-basis: 49%;
     width: 100%;
     height: 100%;
-    border-radius: 10px;
+    border-radius: 15px;
     padding: 20px;
     border: 1px solid #333;
     text-align: center;
+    background-color: #d1d1d1;
 }
 
 .object-img {
     max-width: 100%;
     max-height: 85%;
-    border-radius: 10px;
+    border-radius: 15px;
 }
 
 .object h1 {
@@ -114,4 +117,32 @@
 .types p {
     margin-bottom: 5px;
     font-size: 14px;
+}
+
+@media only screen and (max-width: 600px) {
+    .main {
+        height: 100%;
+    }
+
+    .container {
+        width: 100%;
+        height: 100%;
+    }
+
+    .detail {
+        flex-direction: column;
+    }
+
+    .detail, .types, .object, .content{
+        flex-basis: 100%;
+    }
+
+    .container {
+        border-radius: 0;
+        padding: 35px;
+    }
+
+    .object, .content {
+        margin-bottom: 35px;
+    }
 }
