@@ -1,6 +1,6 @@
 const object = {
     name: "Banana",
-    image: "assets/img/banana.png",
+    image: "../static/img/banana.png",
     water: "91 liters per serving",
     blue: "84%",
     green: "12%",
