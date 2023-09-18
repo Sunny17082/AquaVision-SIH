@@ -88,6 +88,9 @@ body {
 
 .column {
     flex-basis: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .container p {
@@ -113,7 +116,7 @@ body {
 
     .column {
         margin-bottom: 35px;
-        flex-basis: 100%;
+        /* flex-basis: 100%; */
     }
 
     .text {
@@ -121,6 +124,6 @@ body {
     }
 
     .container {
-        max-width: 100%;
+        max-width: 86%;
     }
 }
