@@ -10,17 +10,30 @@ body {
     color: #333;
 }
 
+.main {
+    width: 100%;
+    height: 100vh;
+    background-image: url("https://img.freepik.com/free-vector/turquoise-ocean-color-sea-waves-with-ripples-background_1017-37269.jpg?size=626&ext=jpg&ga=GA1.2.843810337.1689921852&semt=ais");
+    background-size: cover;
+}
+
 .search-box {
-    max-width: 600px;
+    max-width: 700px;
     background-color: #fff;
     margin: 50px auto 0;
     border-radius: 5px;
 }
 
+
 .row {
     display: flex;
     align-items: center;
     padding: 10px 20px;
+}
+
+form {
+    width: 100%;
+    display: flex;
 }
 
 input {
@@ -68,17 +81,24 @@ button i {
 }
 
 .text {
+    width: 100%;
     text-align: center;
-    margin-top: 150px;
+    padding-top: 86px;
 }
 
 .text h1 {
-    color: #fff;
+    font-size: 3.5rem;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #000000;
+    font-weight: 600;
+    font-style: normal;
+    text-shadow: 1px 1px #000000;
 }
 
 .text p {
-    color: #0e98bb;
-    margin-top: 5px;
+    color: #000000;
+    margin-bottom: 15px;
 }
 
 .result-box {
@@ -107,6 +127,6 @@ button i {
 
 @media only screen and (max-width: 600px) {
     .search-box {
-        width: 85%;
+        width: 86%;
     }
 }

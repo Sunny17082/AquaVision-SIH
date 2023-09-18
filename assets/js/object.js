@@ -1,5 +1,4 @@
 const object = {
-    id: 1,
     name: "Banana",
     image: "assets/img/banana.png",
     water: "91 liters per serving",
@@ -14,7 +13,6 @@ const objWater = document.getElementById("water");
 const objBlue = document.getElementById("blue");
 const objGreen = document.getElementById("green");
 const objGrey = document.getElementById("grey");
-const input = document.getElementById("input-box");
 
 objName.innerHTML = object.name;
 objImage.src = object.image;
@@ -22,7 +20,3 @@ objWater.innerHTML = object.water;
 objBlue.innerHTML = object.blue;
 objGreen.innerHTML = object.green;
 objGrey.innerHTML = object.grey;
-
-function showDetail() {
-    location.href = "object.html";
-}
