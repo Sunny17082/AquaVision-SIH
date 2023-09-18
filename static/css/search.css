@@ -18,12 +18,11 @@ body {
 }
 
 .search-box {
-    max-width: 700px;
+    max-width: 600px;
     background-color: #fff;
     margin: 50px auto 0;
     border-radius: 5px;
 }
-
 
 .row {
     display: flex;
@@ -127,6 +126,6 @@ button i {
 
 @media only screen and (max-width: 600px) {
     .search-box {
-        width: 86%;
+        max-width: 86%;
     }
 }
