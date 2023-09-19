@@ -1,10 +1,10 @@
 const object = {
-    name: "Banana",
-    image: "../static/img/banana.png",
-    water: "91 liters per serving",
-    blue: "84%",
-    green: "12%",
-    grey: "4%"
+        name: "Banana",
+        image: "../static/img/banana.png",
+        water: "91 liters per serving",
+        blue: "12%",
+        green: "84%",
+        grey: "4%"
 };
 
 const objName = document.getElementById("name");
