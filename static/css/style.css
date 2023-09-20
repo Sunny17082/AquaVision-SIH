@@ -19,7 +19,7 @@ body {
 
 .container {
     max-width: 90%;
-    padding: 35px 35px;
+    padding: 30px 30px;
     background-color: #fff;
     border-radius: 10px;
     text-align: center;
@@ -32,7 +32,6 @@ body {
 .text h1 {
     font-size: 3.5rem;
     font-weight: 600;
-    margin-bottom: 5px;
     color: #000000;
     font-weight: 600;
     font-style: normal;
@@ -77,14 +76,14 @@ body {
 .text {
     width: 100%;
     text-align: center;
-    padding-top: 50px;
+    padding-top: 30px;
 }
 
 .row-main {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 50px;
+    margin-top: 35px;
 }
 
 .column {
@@ -111,6 +110,29 @@ label {
     font-weight: 600;
 }
 
+.dashboard {
+    width: auto;
+    height: auto;
+}
+
+.community-btn {
+    width: 250px;
+    height: 50px;
+    background-color: #4F709C;
+    color: #fff;
+    border: 0;
+    outline: 0;
+    border-radius: 5px;
+    box-shadow: 0 10px 10px rgb(0, 0, 0, 0.1);
+    cursor: pointer;
+    font-weight: 600;
+    transition: background 0.5s;
+}
+
+.community-btn:hover {
+    background: #22668D;
+}
+
 @media only screen and (max-width: 600px) {
     .main {
         height: 100%;
@@ -134,5 +156,10 @@ label {
 
     label {
         margin-left: 0;
+    }
+
+    .community-btn {
+        margin: 15px 0;
+        max-width: 86%;
     }
 }

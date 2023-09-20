@@ -38,7 +38,7 @@
 }
 
 .container {
-    width: 54%;
+    width: 60%;
     height: 100%;
     background-color: #002D62;
     border-radius: 35px;
@@ -51,7 +51,18 @@
 }
 
 .detail {
-    flex-basis: 50%;
+    flex-basis: 35%;
+    width: 100%;
+    height: 100%;
+    background-color: #002D62;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.recommend {
+    flex-basis: 35%;
     width: 100%;
     height: 100%;
     background-color: #002D62;
@@ -62,13 +73,14 @@
 }
 
 .types {
-    flex-basis: 42%;
+    margin-top: 15px;
+    flex-basis: 35%;
     width: 100%;
     height: 100%;
     border-radius: 15px;
     padding: 20px;
-    border: 1px solid #333;
     background-color: #d1d1d1;
+    border: 1px solid #333;
 }
 
 .object {
@@ -77,8 +89,9 @@
     height: 100%;
     border-radius: 15px;
     padding: 20px;
-    border: 1px solid #333;
     background-color: #d1d1d1;
+    border: 1px solid #333;
+    text-align: center;
 }
 
 .content {
@@ -87,15 +100,16 @@
     height: 100%;
     border-radius: 15px;
     padding: 20px;
+    background-color: #d1d1d1;
     border: 1px solid #333;
     text-align: center;
-    background-color: #d1d1d1;
 }
 
 .object-img {
-    max-width: 100%;
-    max-height: 77%;
+    max-width: 350px;
+    max-height: 226px;
     border-radius: 15px;
+    border: 1px solid #000000;
 }
 
 .object h1 {
@@ -139,6 +153,26 @@
     font-size: 14px;
 }
 
+.recommend p {
+    font-weight: 600;
+}
+
+.item {
+    display: flex;
+    margin-top: 15px;
+    justify-content: center;
+}
+
+.item p {
+    padding-right: 15px;
+    text-shadow: 0 1px #000000;
+}
+
+.text-mid {
+    color: #d1d1d1;
+    text-shadow: 1px 1px #000000;
+}
+
 @media only screen and (max-width: 600px) {
     .main {
         height: 100%;
@@ -155,6 +189,11 @@
         flex-direction: column;
     }
 
+    .recommend {
+        background-color: transparent;
+        flex-direction: column;
+    }
+
     .types, .object, .content{
         flex-basis: 100%;
         border: 1px solid #000000;
@@ -163,6 +202,10 @@
     .container {
         border-radius: 0;
         padding: 35px;
+    }
+
+    .text-mid {
+        color: #000000;
     }
 
     .object, .content {
