@@ -264,7 +264,7 @@ button i {
 
 .prev {
     position: absolute;
-    top: 20%;
+    top: 19%;
     left: 73.5%;
     width: 35px;
     height: 35px;
@@ -321,7 +321,7 @@ button i {
     }
 
     .prev {
-        top: 27%;
+        top: 11.65%;
         left: 77%;
         width: 60px;
     }

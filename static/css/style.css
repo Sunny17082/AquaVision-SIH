@@ -14,11 +14,12 @@ body {
     height: 100vh;
     background-image: url("https://img.freepik.com/free-vector/turquoise-ocean-color-sea-waves-with-ripples-background_1017-37269.jpg?size=626&ext=jpg&ga=GA1.2.843810337.1689921852&semt=ais");
     background-size: cover;
+    text-align: center;
 }
 
 .container {
     max-width: 90%;
-    padding: 50px 35px;
+    padding: 35px 35px;
     background-color: #fff;
     border-radius: 10px;
     text-align: center;
@@ -105,6 +106,11 @@ body {
     padding-bottom: 10px;
 }
 
+label {
+    margin-left: 74%;
+    font-weight: 600;
+}
+
 @media only screen and (max-width: 600px) {
     .main {
         height: 100%;
@@ -124,5 +130,9 @@ body {
 
     .container {
         max-width: 86%;
+    }
+
+    label {
+        margin-left: 0;
     }
 }
