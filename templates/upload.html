@@ -31,7 +31,8 @@
             </form>
         </div>
     </div>
-
+    <div id="header" hidden></div>
+    
     <script>
 
         let upload = document.getElementById("upload");
@@ -50,6 +51,12 @@
             upload.src = "../static/img/searching.gif";
         }
 
+    </script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('#header').load('header.html');
+        });
     </script>
 </body>
 </html>
