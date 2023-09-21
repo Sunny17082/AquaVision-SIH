@@ -14,6 +14,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    text-align: center;
 }
 
 .text {
@@ -210,5 +211,9 @@
 
     .object, .content {
         margin-bottom: 35px;
+    }
+
+    .object-img {
+        width: 100%;
     }
 }
