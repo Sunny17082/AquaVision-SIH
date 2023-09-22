@@ -133,6 +133,30 @@ label {
     background: #22668D;
 }
 
+.login {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+}
+
+.login-btn {
+    width: 60px;
+    height: 35px;
+    background-color: #4F709C;
+    color: #fff;
+    border: 0;
+    outline: 0;
+    border-radius: 5px;
+    box-shadow: 0 10px 10px rgb(0, 0, 0, 0.1);
+    cursor: pointer;
+    font-weight: 600;
+    transition: background 0.5s;
+}
+
+.login-btn:hover {
+    background: #22668D;
+}
+
 @media only screen and (max-width: 600px) {
     .main {
         height: 100%;
@@ -147,7 +171,7 @@ label {
     }
 
     .text {
-        padding-top: 35px;
+        padding-top: 50px;
     }
 
     .container {
@@ -161,5 +185,9 @@ label {
     .community-btn {
         margin: 15px 0;
         max-width: 86%;
+    }
+
+    .login {
+        right: 15px;
     }
 }
